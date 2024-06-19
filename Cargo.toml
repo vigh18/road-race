@@ -1,0 +1,16 @@
+[package]
+name = "road_race"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusty_engine = "6.0.0"
+rand = "0.8.5"
+
+[profile.dev]
+opt-level = 3
+debug = false
+debug-assertions = false
+overflow-checks = false
+incremental = false
+codegen-units = 16
